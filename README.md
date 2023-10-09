@@ -48,7 +48,7 @@ A medida para formatação de valor de hora é usada para converter um valor num
 
 Aqui está como a medida funciona:
 
-```DAX
+```
 VAR _Value = SELECTEDMEASURE()
 VAR _Hour = TRUNC ( _Value  )
 VAR _DecimalMinute = ( _Value - _Hour) * 60
@@ -61,6 +61,7 @@ RETURN
        & ":" 
        & FORMAT ( _Second, "0#;0#" )
        & """"
+ ˋˋˋ
 ### Como Usar a Medida
 
 Para usar esta medida DAX em seu projeto do Power BI, siga os seguintes passos:
