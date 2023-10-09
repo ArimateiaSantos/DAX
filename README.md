@@ -61,7 +61,7 @@ RETURN
        & ":" 
        & FORMAT ( _Second, "0#;0#" )
        & """"
- ˋˋˋ
+```
 ### Como Usar a Medida
 
 Para usar esta medida DAX em seu projeto do Power BI, siga os seguintes passos:
@@ -85,3 +85,4 @@ Sinta-se à vontade para contribuir com melhorias ou correções para essas medi
 ## Licença
 
 Este projeto é licenciado sob a [Licença MIT](LICENSE). Sinta-se à vontade para usar, modificar e distribuir de acordo com os termos da licença.
+
